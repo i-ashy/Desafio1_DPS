@@ -13,8 +13,8 @@ const jsonIterando = () => {
   return (
     //container
     <>
-    <div className={`container w-75 ${estilos.pers}`}>
-      <h1 className="mt-3 mb-3 text-center">Fraudes Cripto</h1>
+    <div className={`container w-75 mb-4`}>
+      <h1 className={`mt-3 pt-3 mb-3 text-center ${estilos.titulo_prim}`}>Fraudes Cripto</h1>
       {datos.map((dato) => (
         <div className="card mb-3" key={dato.id}>
           <div className="card-header">
