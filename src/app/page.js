@@ -42,3 +42,15 @@ const jsonIterando = () => {
 }
 
 export default jsonIterando;
+
+
+
+
+
+
+
+
+//para json 1
+//<p><b>Características:</b> {datos.caracteristicas}</p>
+//para json 3
+//<p><b>Características:</b><br></br> Fecha: {dato.caracteristicas.fecha}</p>
